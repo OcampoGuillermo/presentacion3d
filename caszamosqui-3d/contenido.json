@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "titulo": "Operación CaszaMosqui",
+    "etiqueta": "Vigilancia comunitaria · Expedición 3D",
+    "descripcion": "Una cacería guiada por el mapa, el clima y los reportes de la comunidad para frenar al Aedes aegypti.",
+    "marca": "CaszaMosqui · El Colorado, Formosa",
+    "institucion": "CaszaMosqui · El Colorado, Formosa · 2026",
+    "paleta": {
+      "fondo": "#042d31",
+      "primario": "#0b4a4e",
+      "acento": "#e8a23a",
+      "brillo": "#82d8c2",
+      "texto": "#fbf7ee"
+    },
+    "guia": { "tipo": "hunter", "nombre": "EL CAZADOR" },
+    "palabras": [
+      "MOSQUITO",
+      "CRIADERO",
+      "BARRIO",
+      "REPORTE",
+      "MAPA",
+      "CLIMA",
+      "PREVENIR",
+      "COMUNIDAD",
+      "CONTROL",
+      "DENGUE",
+      "FORMOSA",
+      "ACCIÓN"
+    ]
+  },
+  "imagenes": {
+    "logo_cm": "imagenes/logo-cm.png",
+    "home": "imagenes/home.png",
+    "mapa": "imagenes/mapa.png",
+    "reporte": "imagenes/reporte.png",
+    "clima": "imagenes/clima.png",
+    "prevencion": "imagenes/prevencion.png",
+    "admin": "imagenes/admin.png",
+    "chatbot": "imagenes/chatbot.png",
+    "qr_site": "imagenes/qr-caszamosqui.png"
+  },
+  "paradas": [
+    {
+      "tipo": "portada",
+      "nombre": "Bienvenida",
+      "etiqueta": "Vigilancia comunitaria · El Colorado, Formosa",
+      "titulo": "Operación CaszaMosqui",
+      "subtitulo": "Una cacería guiada por los datos de la comunidad",
+      "frase": "Cada criadero reportado es una picadura menos.",
+      "logos": ["logo_cm"],
+      "temas": [
+        "El enemigo",
+        "La misión",
+        "Mapa de riesgo",
+        "Reporte",
+        "Clima",
+        "Prevención",
+        "Comunidad",
+        "Panel"
+      ],
+      "guia": [
+        "Soy el Cazador. Hace años recorro estos barrios buscando criaderos.",
+        "Hoy la comunidad entera es mi equipo: el mapa, el clima y cada reporte me guían.",
+        "Nueve paradas para pasar de reaccionar a anticipar. Vamos."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 1,
+      "nombre": "El enemigo",
+      "etiqueta": "Parada 1 de 9 · EL PROBLEMA",
+      "titulo": "El enemigo invisible",
+      "holograma": "adn",
+      "tarjetas": [
+        {
+          "rotulo": "El ciclo",
+          "texto": "El Aedes aegypti pone huevos en cualquier recipiente con agua. Con calor, el ciclo se acelera y la población crece."
+        },
+        {
+          "rotulo": "La brecha",
+          "texto": "El vecino ve el criadero, pero no siempre sabe dónde reportarlo. La brigada llega tarde o no llega."
+        },
+        {
+          "rotulo": "El costo",
+          "texto": "Dengue, zika y chikungunya. La prevención es más barata que una epidemia."
+        }
+      ],
+      "guia": [
+        "Primero, el enemigo. No es un mosquito cualquiera: es el Aedes aegypti.",
+        "Le gusta el agua limpia y quieta. Un florero, una cubierta, una canaleta.",
+        "El vecino lo ve, pero muchas veces no tiene dónde avisar.",
+        "Y cuando la brigada llega, el mosquito ya se multiplicó."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 2,
+      "nombre": "La misión",
+      "etiqueta": "Parada 2 de 9 · LA SOLUCIÓN",
+      "titulo": "Una sola misión",
+      "holograma": "red",
+      "imagen": { "clave": "home", "rotulo": "CASZAMOSQUI · INICIO" },
+      "tarjetas": [
+        {
+          "rotulo": "Entrada",
+          "texto": "Reportar es simple: tipo de criadero, barrio, referencia y una foto. Sin crear usuario ni contraseña."
+        },
+        {
+          "rotulo": "Inteligencia",
+          "texto": "El mapa cruza reportes y clima para ordenar el riesgo por barrio y priorizar la inspección."
+        },
+        {
+          "rotulo": "Acción",
+          "texto": "La brigada verifica, controla y actualiza el estado. La comunidad ve el resultado en el mapa."
+        }
+      ],
+      "guia": [
+        "La misión es cerrar el circuito entre el vecino y la brigada.",
+        "Esta es la puerta de entrada: el sitio público, sin login y sin vueltas.",
+        "El reporte no queda en un cajón: se publica en el mapa.",
+        "El mapa prioriza; la brigada verifica y controla.",
+        "Y cada cambio se ve. Eso es lo que sostiene la confianza."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 3,
+      "nombre": "Mapa de riesgo",
+      "etiqueta": "Parada 3 de 9 · TERRITORIO",
+      "titulo": "El mapa manda",
+      "holograma": "globo",
+      "imagen": { "clave": "mapa", "rotulo": "MAPA DE RIESGO" },
+      "tarjetas": [
+        {
+          "rotulo": "28 barrios",
+          "texto": "Cada barrio se colorea por riesgo y se puede filtrar por nivel alto, medio o bajo."
+        },
+        {
+          "rotulo": "24 reportes",
+          "texto": "El mapa se alimenta de reportes reales. Los pines muestran dónde mirar y qué revisar."
+        },
+        {
+          "rotulo": "2 · 8 · 18",
+          "texto": "Dos barrios en riesgo alto, ocho medio y dieciocho bajo. El clima ajusta la lectura."
+        }
+      ],
+      "guia": [
+        "Tercera parada: el mapa. Acá el problema se vuelve territorio.",
+        "Veintiocho barrios, cada uno con su nivel de riesgo.",
+        "Los reportes reales encienden los pines.",
+        "Y el clima ajusta el semáforo: dos alto, ocho medio, dieciocho bajo.",
+        "El mapa no reemplaza la inspección: la ordena."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 4,
+      "nombre": "Reporte",
+      "etiqueta": "Parada 4 de 9 · ENTRADA",
+      "titulo": "Cualquiera puede reportar",
+      "holograma": "mixta",
+      "imagen": { "clave": "reporte", "rotulo": "FORMULARIO PÚBLICO" },
+      "tarjetas": [
+        {
+          "rotulo": "Datos",
+          "texto": "Tipo de criadero, barrio, referencia, título y descripción. Cinco datos para ubicar el foco."
+        },
+        {
+          "rotulo": "Foto y GPS",
+          "texto": "Opcionales. La foto ayuda a confirmar; el GPS lleva a la brigada al lugar exacto."
+        },
+        {
+          "rotulo": "Sin fricción",
+          "texto": "No hay usuario ni contraseña. El reporte se publica al instante en el mapa."
+        }
+      ],
+      "guia": [
+        "Cuarta parada: el reporte. La barrera tiene que ser mínima.",
+        "Tipo de criadero, barrio, referencia y una descripción.",
+        "La foto y el GPS son opcionales, pero valen oro para la brigada.",
+        "No pedimos usuario. El reporte entra al mapa al instante.",
+        "La dirección exacta y la foto quedan para el administrador."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 5,
+      "nombre": "Clima",
+      "etiqueta": "Parada 5 de 9 · CONTEXTO",
+      "titulo": "El clima es el cómplice",
+      "holograma": "barras",
+      "datos": [
+        { "etiqueta": "Calor", "valor": 34 },
+        { "etiqueta": "Humedad", "valor": 78 },
+        { "etiqueta": "Lluvia", "valor": 60 }
+      ],
+      "imagen": { "clave": "clima", "rotulo": "ALERTA CLIMÁTICA" },
+      "tarjetas": [
+        {
+          "rotulo": "Cada 10 minutos",
+          "texto": "La alerta se actualiza sola. No es un pronóstico médico: es una señal de contexto."
+        },
+        {
+          "rotulo": "Bonus climático",
+          "texto": "Calor y humedad aceleran el ciclo. El riesgo del mapa sube aunque los reportes no cambien."
+        },
+        {
+          "rotulo": "Prevenir a tiempo",
+          "texto": "Con lluvia y calor, revisar recipientes es la acción más simple y más efectiva."
+        }
+      ],
+      "guia": [
+        "Quinta parada: el clima. El mosquito no lee reportes, pero el clima lo favorece.",
+        "Calor, humedad y lluvia: el combo perfecto para que el ciclo se acelere.",
+        "La alerta se actualiza cada diez minutos.",
+        "Por eso el mapa aplica un bonus climático al riesgo.",
+        "No es un pronóstico médico: es una señal para actuar antes."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 6,
+      "nombre": "Prevención",
+      "etiqueta": "Parada 6 de 9 · PREVENCIÓN",
+      "titulo": "Aprender para prevenir",
+      "holograma": "libro",
+      "imagen": { "clave": "prevencion", "rotulo": "GUÍA Y CUESTIONARIO" },
+      "tarjetas": [
+        {
+          "rotulo": "La guía",
+          "texto": "El ciclo del mosquito y las tres acciones que más sirven, explicadas sin vueltas."
+        },
+        {
+          "rotulo": "El quiz",
+          "texto": "Cinco preguntas para fijar lo aprendido y detectar dudas antes de que se transformen en criaderos."
+        },
+        {
+          "rotulo": "Síntomas",
+          "texto": "Un test orienta sobre dengue, zika y chikungunya. No reemplaza la consulta médica."
+        }
+      ],
+      "guia": [
+        "Sexta parada: la prevención. La mejor cacería es la que evita el criadero.",
+        "La guía explica el ciclo y las tres acciones que más sirven.",
+        "El cuestionario de cinco preguntas refuerza lo aprendido.",
+        "El test de síntomas orienta, pero no reemplaza al médico.",
+        "Información clara, sin alarmismo."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 7,
+      "nombre": "Comunidad",
+      "etiqueta": "Parada 7 de 9 · COMUNIDAD",
+      "titulo": "La comunidad es el radar",
+      "holograma": "hd",
+      "imagen": { "clave": "chatbot", "rotulo": "COMENTARIOS + MOSQUI" },
+      "tarjetas": [
+        {
+          "rotulo": "Comentarios por barrio",
+          "texto": "Sugerencias, problemas y propuestas que no entran en el formulario de reporte."
+        },
+        {
+          "rotulo": "Mosqui 24/7",
+          "texto": "Dengue, zika y chikungunya: síntomas, prevención, repelentes y criaderos."
+        },
+        {
+          "rotulo": "Límites claros",
+          "texto": "Información general. No diagnostica. Ante una emergencia, llamar al 107."
+        }
+      ],
+      "guia": [
+        "Séptima parada: la comunidad. Sin confianza, no hay vigilancia.",
+        "Los comentarios recogen lo que el formulario no pregunta.",
+        "Mosqui responde dudas a cualquier hora, en lenguaje claro.",
+        "Síntomas, prevención, repelentes y criaderos.",
+        "Y siempre con un límite explícito: no reemplaza la consulta médica."
+      ]
+    },
+    {
+      "tipo": "contenido",
+      "numero": 8,
+      "nombre": "Panel",
+      "etiqueta": "Parada 8 de 9 · ADMINISTRACIÓN",
+      "titulo": "El panel de caza",
+      "holograma": "barras",
+      "datos": [
+        { "etiqueta": "Pendientes", "valor": 14 },
+        { "etiqueta": "Verificados", "valor": 6 },
+        { "etiqueta": "Controlados", "valor": 4 }
+      ],
+      "imagen": { "clave": "admin", "rotulo": "PANEL /ADMIN.PHP" },
+      "tarjetas": [
+        {
+          "rotulo": "KPIs y mapa",
+          "texto": "Reportes totales, pendientes, verificados y controlados. El mismo mapa, con pines GPS."
+        },
+        {
+          "rotulo": "Gestión",
+          "texto": "Filtrar por tipo, barrio y estado; verificar, controlar o eliminar. Fotos y votos en el detalle."
+        },
+        {
+          "rotulo": "Respaldo",
+          "texto": "Exportar y restaurar JSON. Faltan crear/editar, moderar comentarios, roles, auditoría y CSV."
+        }
+      ],
+      "guia": [
+        "Octava parada: el panel. Acá la cacería se organiza.",
+        "Cuatro indicadores y el mapa con los pines GPS.",
+        "Los reportes se filtran por tipo, barrio y estado.",
+        "Verificar, controlar o eliminar. Fotos y votos a la vista.",
+        "El respaldo JSON funciona. Faltan roles, auditoría y exportación CSV."
+      ]
+    },
+    {
+      "tipo": "cierre",
+      "numero": 9,
+      "nombre": "Impacto",
+      "etiqueta": "Parada 9 de 9 · IMPACTO",
+      "titulo": "De reaccionar a anticipar",
+      "frase": "El mapa no es el fin: es la conversación.",
+      "qr": [
+        {
+          "clave": "qr_site",
+          "nombre": "CaszaMosqui",
+          "usuario": "caszamosqui.onrender.com"
+        }
+      ],
+      "cierre": "Un vecino reporta, la brigada actúa, el mapa se actualiza y la comunidad ve el resultado.",
+      "institucion": "CaszaMosqui · El Colorado, Formosa · 2026",
+      "credito": "Capturas reales del sitio y del panel de administración.",
+      "guia": [
+        "Última parada: el impacto. La tecnología no es el fin.",
+        "El vecino reporta, la brigada actúa y el mapa se actualiza.",
+        "La comunidad ve el resultado. Ese circuito es la victoria.",
+        "Escaneá el QR y sumate a la cacería."
+      ]
+    }
+  ]
+}
